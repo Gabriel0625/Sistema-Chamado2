@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+div {
+    color: rgba(217, 217, 217, 1);
+}
+
+body{
+    background-color: rgba(217, 217, 217, 1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    width: 828px;
+    height: 793px;
+    background-color:rgba(141, 6, 6, 1);
+    padding: 30px;
+    border-radius: 20px;
+ }
+
+h1, h2, p {
+    background-color: rgba(141, 6, 6, 1);
+    font-family: 'Segoe UI, Tahoma, Geneva, Verdana, sans-serif';
+    margin: 00px 50px;
+}
+
+.row{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+button {
+ 
+    background-color: rgba(217, 217, 217, 1);
+    color: black;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 15px;
+    border-radius: 60px;
+    border: 0px;
+}
+
+
+
+
