@@ -1,0 +1,114 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+ 
+body {
+  background-color: rgba(245, 245, 245, 1);
+}
+ 
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  border: none;
+
+}
+ 
+.navbar-brand {
+  font-size: 20px;
+  width: 100px;
+}
+ 
+.bg-body-tertiary {
+  background-color: rgba(141, 6, 6, 1) !important;
+}
+ 
+.nav-link {
+  color: white !important;
+  margin-left: 30px;
+}
+ 
+
+img {
+  width: 50px;
+}
+ 
+.fa-solid {
+  font-size: 30px;
+  color: aliceblue;
+}
+ 
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 20px;
+
+}
+ 
+
+.input-cliente {
+  background-color: rgba(217, 217, 217, 1);
+  border: 0;
+  height: 30px;
+}
+ 
+
+.input-categoria {
+  background-color: rgba(217, 217, 217, 1);
+  border: 0;
+  height: 30px;
+}
+ 
+
+.input-assunto {
+  background-color: rgba(217, 217, 217, 1);
+  border: 0;
+  height: 30px;
+}
+ 
+
+.input-descricao {
+  background-color: rgba(217, 217, 217, 1);
+  border: 0;
+  height: 100px;
+}
+ 
+
+.input-status {
+  margin-top: 5px;
+  margin-bottom: 10px;
+  border: none !important;
+  
+}
+ 
+
+.btn-salvar,
+.btn-voltar {
+  border: 0;
+  height: 50px;
+  width: 500px;
+  background-color: rgba(217, 217, 217, 1);
+  margin-top: 10px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+}
+ 
+.h12 {
+  color: black;
+}
+ 
+.h11 {
+  color: black;
+}
+ 
+h1 {
+  height: 30px;
+}
